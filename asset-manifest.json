@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/photofixation/static/css/main.7acaea2f.css",
+    "main.js": "/photofixation/static/js/main.07d3183d.js",
+    "index.html": "/photofixation/index.html",
+    "main.7acaea2f.css.map": "/photofixation/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/photofixation/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
