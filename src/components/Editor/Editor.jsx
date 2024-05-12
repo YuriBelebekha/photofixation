@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import TuiImageEditor from 'tui-image-editor';
 import 'tui-image-editor/dist/tui-image-editor.css';
+import 'tui-color-picker/dist/tui-color-picker.css';
 // import { whiteTheme } from 'theme/white-theme';
 
 const useEditor = () => {
