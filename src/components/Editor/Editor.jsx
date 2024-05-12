@@ -2,13 +2,14 @@ import React, { useRef, useEffect } from 'react';
 import TuiImageEditor from 'tui-image-editor';
 import 'tui-image-editor/dist/tui-image-editor.css';
 import 'tui-color-picker/dist/tui-color-picker.css';
-// import { whiteTheme } from 'theme/white-theme';
+import { whiteTheme } from 'theme/white-theme';
 
 const useEditor = () => {
   const editorRef = useRef(null);
 
   useEffect(() => {
     const myTheme = {
+      whiteTheme,
       // Theme object to extends default dark theme.
     };
 
@@ -22,7 +23,7 @@ const useEditor = () => {
           path: 'https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg',
           name: 'SampleImage',
         },
-        theme: myTheme,
+        theme: myTheme.whiteTheme,
         menu: [
           'crop',
           'rotate',
@@ -36,13 +37,13 @@ const useEditor = () => {
         ],
         // initMenu: 'filter',
         uiSize: {
-          width: '1200px',
-          height: '700px',
+          width: '1000px',
+          height: '500px',
         },
         menuBarPosition: 'bottom',
       },
-      cssMaxHeight: 500,
-      cssMaxWidth: 700,
+      cssMaxHeight: 300,
+      cssMaxWidth: 500,
       selectionStyle: {
         cornerSize: 20,
         rotatingPointOffset: 70,
@@ -63,7 +64,7 @@ export const Editor = () => {
 };
 
 // import 'tui-image-editor/dist/tui-image-editor.css';
-// import ImageEditor from '@toast-ui/react-image-editor';
+// import ImageEditor from '@toast-ui/react-image-editor';  // npm install @toast-ui/react-image-editor
 // // import { whiteTheme } from 'theme/white-theme';
 
 // export const Editor = () => {
