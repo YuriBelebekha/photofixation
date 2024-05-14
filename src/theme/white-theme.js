@@ -1,14 +1,14 @@
 export const whiteTheme = {
   'common.bi.image': '',
-  'common.bisize.width': '120px',
+  'common.bisize.width': '0',
   'common.bisize.height': 'auto',
-  // "common.backgroundImage": "./img/bg.png",
-  // 'common.backgroundColor': '#fff',
+  // 'common.backgroundImage': './img/bg.png',
+  'common.backgroundColor': 'white',
   // 'common.border': '1px solid #c1c1c1',
 
   // header
-  'headerLogo.display': 'none',
   // 'header.backgroundImage': 'none',
+  // 'header.backgroundColor': '#c1c1c1',
   // 'header.backgroundColor': 'transparent',
   // 'header.border': '0px',
 
