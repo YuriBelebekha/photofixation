@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/photofixation/static/css/main.fc869c00.css",
-    "main.js": "/photofixation/static/js/main.df10f7ee.js",
+    "main.js": "/photofixation/static/js/main.b0940383.js",
     "index.html": "/photofixation/index.html",
     "main.fc869c00.css.map": "/photofixation/static/css/main.fc869c00.css.map",
-    "main.df10f7ee.js.map": "/photofixation/static/js/main.df10f7ee.js.map"
+    "main.b0940383.js.map": "/photofixation/static/js/main.b0940383.js.map"
   },
   "entrypoints": [
     "static/css/main.fc869c00.css",
-    "static/js/main.df10f7ee.js"
+    "static/js/main.b0940383.js"
   ]
 }
