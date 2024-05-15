@@ -4,8 +4,21 @@ import 'tui-image-editor/dist/tui-image-editor.css';
 import 'tui-color-picker/dist/tui-color-picker.css';
 import { whiteTheme } from 'theme/white-theme';
 
+// function Toggle() {
+//   const [enabled, setEnabled] = useState(false);
+
+//   return (
+//     <React.Fragment>
+//     </React.Fragment>
+//   )
+
+// }
+
 const useEditor = () => {
   const editorRef = useRef(null);
+  const tuiImageEditorRef = useRef('.tui-image-editor');
+
+  console.log(tuiImageEditorRef.current);
 
   useEffect(() => {
     const myTheme = {
